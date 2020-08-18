@@ -11,6 +11,9 @@ cart operations like add,update & delete products to the cart & finally can chec
 If client has not logged in,then also he will be able to add products to the cart,and he can perform update & delete products operations to the cart too.
 at the time of checkout he will be asked for login.and then he will be able to do payment.
 
+client can view products according to brand and categories,he can do search for the products too.
+pagination is included.
+
 after payment client will be redirected to his account and he will get order confirmation or cancellation message in his account.
 client will have order summery too in his account.
  
