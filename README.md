@@ -1,9 +1,9 @@
-# onlinestore99-ecommerce-website-OOP_PHP-AJAX-JQUERY-BOOTSTRAP
+# onlinestore99-ecommerce-website-PHP-MYSQLI-AJAX-JQUERY-BOOTSTRAP
 PROJECT DETAILS:
 This project is built up to understand the logic behind development of e-commerce website with PAYPAL payment module Integration.
 
 TECHNOLOGIES:
-OOP PHP, AJAX, JQUERY, BOOTSTRAP
+PHP, MYSQLI, AJAX, JQUERY, BOOTSTRAP
 
 Normal scenario Client need to register himself,then he can login and then smoothly perform 
 cart operations like add,update & delete products to the cart & finally can checkout and do payment.
