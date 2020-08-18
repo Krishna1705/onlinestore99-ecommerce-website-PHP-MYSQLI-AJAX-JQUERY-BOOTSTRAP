@@ -1,0 +1,41 @@
+FIRST YOU NEED TO GO TO https://developer.paypal.com/ AND THEN YOU need to LOGIN
+IF U DONT HAVE PAYPAL ACCOUNT THEN YOU NEED TO SIGN UP HERE.
+
+now after LOGIN You will be redirected into your account.here left side column you will find an option of SANDBOX.
+IN SANDBOX U CAN CREATE AN ACCOUNT FOR YOUR PROJECT.SANDBOX IS FOR DEVELOPERS.WHO CAN TEST PAYMENT MODULE INTO THEIR PROJECT DURING DEVELOPMENT.
+for my ecommerce project name-onlinestore99 I HAVE CREATED TWO TEST ACCOUNTS.
+
+TEST ACCOUNTS DETAILS(SANDBOX ACCOUNTS)
+
+(1)User account
+mail:krishnamonikpatel@gmail.com
+pw:Kri.1705
+
+(2)Business owner account
+mail:cart@onlinestore99.com
+pw:Kri.1705
+
+TO get transaction id,payment_status,paid amount etc Details you need to GO INTO THE www.sanbox.paypal.com account.
+you have to login with your business acount id here.business account details are as follows:
+mail:cart@onlinestore99.com
+pw:Kri.1705
+
+there you will have to make some changes as follows:
+*here in ACCOUNT SETTING you need to go into INSTANT PAYMENT NOTIFICATIONS->update
+inside it click CHOOSE IPN SETTING BUTTON.
+
+enter your live website's URL/payment_success.php page here.
+(if you are on localhost then you will not be able to enable this option,then leave this option as it is.)
+and here you have to enable receive IPN messages.SAVE IT 
+
+*THEN GO INTO WEBSITE PAYMENTS->WEBSITE PREFERNECES ->update
+=>keep auto return- on
+place url:enter your live website's URL/payment_success.php page here.(if you are on localhost then enter localhost/payment_success.php address here .)
+=>payment data transfer-on//paypal will send some variable to identify them.
+leave all other things as it is.then save it.now everything is done.
+
+-----------------------------------------------------------------------------------------
+you will get all payement  & transaction details on payment_success page's url after payment completion.
+now you can go and test your project
+
+
